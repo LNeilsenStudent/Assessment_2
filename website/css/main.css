@@ -88,9 +88,12 @@ h3 {
   border-style: solid;
   background-color: var(--highlight);
   word-wrap: normal;
+  text-align:center;
+  margin: 0%;
+  padding: 0%;
   border-radius: 10px;
   color: var(--my-black);
-  display: flex;
+  list-style-type: none;
 }
 a:link, a:visited {
   background-color: var(--alt-background);
@@ -98,10 +101,9 @@ a:link, a:visited {
     border-radius: 5px;
     border-width: 3px;
     border-color: var(--my-borders);
+    padding: 0.5%;
     padding: 12px;
-    text-align: justify;
     text-decoration: none;
-    display:inline-flex;
   }
   
   a:hover, a:active {
@@ -113,3 +115,8 @@ a:link, a:visited {
     margin-top: 1%;
     margin-bottom: 1%;
   }
+
+  li{
+    display: inline-block;
+  }
+  
