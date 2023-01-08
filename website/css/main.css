@@ -9,6 +9,7 @@
   --my-borders: #000003;
   --intermediate-background: #c1c1c1;
   --my-border-radius: 20px;
+
 }
 
 body {
@@ -99,8 +100,12 @@ a:link, a:visited {
     font-family: 'Secular One', sans-serif;
   }
   
-  a:hover, a:active {
+  a:hover {
     background-color: var(--highlight);
+  }
+
+  a:active{
+    background-color: var(--intermediate-background);
   }
 
   .borderless-image{
