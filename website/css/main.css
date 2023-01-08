@@ -5,7 +5,7 @@
   --my-black: #000000;
   --highlight: #990000;
   --alt-background: #003366;
-  --my-white: #999999;
+  --my-white: #ffffff;
   --my-borders: #000003
 }
 
@@ -83,13 +83,14 @@ h3 {
   width: 100%;
 }
 .navtxt {
-  font-family: Georgia;
+  text-decoration-color: var(--my-white);
   border-color: var(--my-borders);
   border-style: solid;
+  background-color: var(--highlight);
+  word-wrap: normal;
   border-radius: 10px;
-  font-size: 18px;
-  font-weight:bold;
-  color: var(--my-black);;
+  color: var(--my-black);
+  display: flex;
 }
 a:link, a:visited {
   background-color: var(--alt-background);
@@ -97,10 +98,10 @@ a:link, a:visited {
     border-radius: 5px;
     border-width: 3px;
     border-color: var(--my-borders);
-    padding: 12px 12px;
-    text-align: center;
+    padding: 12px;
+    text-align: justify;
     text-decoration: none;
-    display: inline-block;
+    display:inline-flex;
   }
   
   a:hover, a:active {
@@ -108,6 +109,7 @@ a:link, a:visited {
   }
 
   .nav-element{
+    font-family: Georgia;
     margin-top: 1%;
     margin-bottom: 1%;
   }
