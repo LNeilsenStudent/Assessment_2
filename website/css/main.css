@@ -1,22 +1,21 @@
 
 :root{
-  --dark-blue: #336699;
-  --light-blue: #99ccFF;
+  --dark-blue: #3b7eb0;
+  --light-blue: #eaeaea;
   --my-black: #000000;
   --highlight: #990000;
-  --alt-background: #003366;
+  --alt-background: #313948;
   --my-white: #ffffff;
   --my-borders: #000003;
-  --intermediate-background: #006473;
+  --intermediate-background: #c1c1c1;
+  --my-border-radius: 20px;
 }
 
 body {
-  background-color: var(--dark-blue);
-  width: 100%;
+  background-color: var(--alt-background);
   margin-top: 0px;
 }
 main {
-  background-color: var(--dark-blue);
   width: 100%; 
 }
 h1 {
@@ -47,7 +46,7 @@ h3 {
 
 .myheader, .DocHead, .image {
   background-color: var(--light-blue);
-  border-radius: 10px;
+  border-radius: var(--my-border-radius);
   width: 100%;
   border-color: var(--my-borders);
   border-style: solid;
@@ -56,10 +55,11 @@ h3 {
   
   img {
     border: 5px solid var(--my-black);
-    border-radius: 10px;
+    border-radius: var(--my-border-radius);
     width: "5%";
     height: "5%";
   }
+  
 
 .center {
     display: block;
@@ -73,7 +73,7 @@ h3 {
   border-color: var(--my-black);
   background-color: var(--light-blue);
   border-style: solid;
-  border-radius: 10px;
+  border-radius: var(--my-border-radius);;
   padding: 10px;
   margin: 10px;
   width: 100%;
@@ -88,9 +88,9 @@ h3 {
   list-style-type: none;
 }
 a:link, a:visited {
-  background-color: var(--alt-background);
+  background-color: var(--dark-blue);
     color: var(--my-white);
-    border-radius: 5px;
+    border-radius: calc(var(--my-border-radius));
     border-width: 3px;
     border-color: var(--my-borders);
     line-height: 300%;
@@ -101,6 +101,18 @@ a:link, a:visited {
   
   a:hover, a:active {
     background-color: var(--highlight);
+  }
+
+  .borderless-image{
+    border-radius: var(--my-border-radius);
+    border-style: none;
+    margin-left: 0px;
+    margin-right: 0px;
+    width:30%;
+  }
+
+  .flipped-horiz{
+    transform: scaleX(-1);
   }
 
   li{
