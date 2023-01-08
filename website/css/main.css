@@ -6,12 +6,14 @@
   --highlight: #990000;
   --alt-background: #003366;
   --my-white: #ffffff;
-  --my-borders: #000003
+  --my-borders: #000003;
+  --intermediate-background: #006473;
 }
 
 body {
   background-color: var(--dark-blue);
   width: 100%;
+  margin-top: 0px;
 }
 main {
   background-color: var(--dark-blue);
@@ -53,7 +55,7 @@ h3 {
   }
   
   img {
-    border: 5px solid var(--my-black);;
+    border: 5px solid var(--my-black);
     border-radius: 10px;
     width: "5%";
     height: "5%";
@@ -64,6 +66,8 @@ h3 {
     margin-left: auto;
     margin-right: auto;
     width: 70%;
+    background-color: var(--intermediate-background) ;
+    padding: 10px
 }
 .nav {
   border-color: var(--my-black);
