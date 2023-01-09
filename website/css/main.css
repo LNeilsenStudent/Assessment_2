@@ -42,6 +42,12 @@ h3 {
   font-family: 'Secular One', sans-serif;
   font-size: 35px;
 }
+h5 {
+  color: var(--my-black);
+  text-align: center;
+  font-family: 'Secular One', sans-serif;
+  font-size: 15px;
+}
 .p {
   font-family: 'Secular One', sans-serif;
   color: var(--my-black);
@@ -143,7 +149,7 @@ a:link, a:visited {
     border-style: none;
     padding-left:1%;
     padding-right: 3% ;   
-    width:10%
+    width:12%
     }
 
   .personal-icon:hover{
@@ -168,4 +174,8 @@ a:link, a:visited {
   
   .light-bg-panel{
     background-color: var(--panel-bg-light);
+  }
+
+  .top-space-header{
+    margin-top: 2%;;
   }
