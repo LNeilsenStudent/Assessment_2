@@ -145,6 +145,7 @@ a:link, a:visited {
     }
 
   .personal-icon{
+    cursor: pointer;
     border-radius: var(--my-border-radius);
     border-style: none;
     padding-left:1%;
@@ -178,4 +179,45 @@ a:link, a:visited {
 
   .top-space-header{
     margin-top: 2%;;
+  }
+
+  .modal{
+    background-color: var(--my-white);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    max-width: 70%;
+    max-height: 100%;
+    border-width: 2px;
+    border-radius: var(--my-border-radius);
+    z-index: 5;
+  }
+
+  .modal-head{
+    font-family: 'Secular One', sans-serif;
+    font-weight: bold;
+    padding:10px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid var(--alt-background);
+  }
+
+  .modal-body{
+    font-family: 'Secular One', sans-serif;
+    padding: 10px;
+  }
+
+  .close-button{
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: none;
+    font-weight: bold;
+  }
+
+  .dark-overlay{
+
   }
