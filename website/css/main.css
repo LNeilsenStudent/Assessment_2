@@ -9,6 +9,7 @@
   --my-borders: #000003;
   --intermediate-background: #c1c1c1;
   --panel-bg:#24262d;
+  --panel-bg-alpha:#24262d99;
   --panel-bg-lighter:#52555f;
   --panel-bg-light:#90929b;
 
@@ -186,13 +187,19 @@ a:link, a:visited {
     position: fixed;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%) scale(0);
+    transition: 200ms ease-in-out;
     width: 300px;
     max-width: 70%;
     max-height: 100%;
     border-width: 2px;
     border-radius: var(--my-border-radius);
     z-index: 5;
+  }
+
+  .modal.active{
+    transform: translate(-50%, -50%) scale(1);
+
   }
 
   .modal-head{
@@ -218,6 +225,20 @@ a:link, a:visited {
     font-weight: bold;
   }
 
-  .dark-overlay{
+  #dark-overlay{
+    position: fixed;
+    opacity:0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: var(--panel-bg-alpha);
+    pointer-events: none;
+    transition: 200ms ease-in-out;
 
+  }
+
+  #dark-overlay.active{
+    opacity: 1;
+    pointer-events: all;
   }
