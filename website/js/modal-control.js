@@ -14,8 +14,8 @@ const lachie_info = ["Lachie Neilsen", "write some stuff about lachie (stdent No
 const ida_info = ["Ida Gange", "write some stuff about ida (stdent No. personal info, etc). write some stuff about ida (stdent No. personal info, etc). write some stuff about ida (stdent No. personal info, etc). write some stuff about ida (stdent No. personal info, etc). write some stuff about ida (stdent No. personal info, etc). write some stuff about ida (stdent No. personal info, etc). write some stuff about ida (stdent No. personal info, etc). write some stuff about ida (stdent No. personal info, etc). "]
 // Myer-Briggs data goes here: -------------------------------------------------------------
 const alex_mb = ["ENFJ-A", "Extraversion: 71%<br>Intuitive: 59%<br>Thinking: 34%<br>Judging: 78%<br>Assertive: 51%"]
-const chris_mb = ["ENFJ-A", "Extraversion: 71%<br>Intuitive: 59%<br>Thinking: 34%<br>Judging: 78%<br>Assertive: 51%"]
-const ash_mb = ["ENFJ-A", "Extraversion: 71%<br>Intuitive: 59%<br>Thinking: 34%<br>Judging: 78%<br>Assertive: 51%"]
+const chris_mb = ["ISTJ-T", "Extraversion: 71%<br>Intuitive: 59%<br>Thinking: 34%<br>Judging: 78%<br>Assertive: 51%"]
+const ash_mb = ["ESFJ-A", "Extraversion: 71%<br>Intuitive: 59%<br>Thinking: 34%<br>Judging: 78%<br>Assertive: 51%"]
 const lachie_mb = ["INTJ-A", "Extraversion: 43%<br>Intuitive: 66%<br>Thinking: 54%<br>Judging: 58%<br>Assertive: 51%"]
 const ida_mb = ["ENFJ-A", "Extraversion: 71%<br>Intuitive: 59%<br>Thinking: 34%<br>Judging: 78%<br>Assertive: 51%"]
 
