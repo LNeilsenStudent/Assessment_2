@@ -263,5 +263,10 @@ a:link, a:visited {
 
   .float-right{
     margin-left: auto;
-    margin-right: 20%;
+    margin-right: 5%;
+  }
+
+  .float-left{
+    margin-right: auto;
+    margin-left: -1%;
   }
