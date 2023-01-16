@@ -61,11 +61,10 @@ h6 {color: #003366;
   font-size: 15px;
   font-style: italic;
 }
-.p {
-  font-family: 'Secular One', sans-serif;
+p {
   color: var(--my-black);
+  font-family: 'Secular One', sans-serif;
   font-size: 13px;
-  word-wrap: hard;
 }
 
 
