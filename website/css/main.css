@@ -270,3 +270,12 @@ a:link, a:visited {
     margin-right: auto;
     margin-left: -1%;
   }
+
+  .regular-horizontal-line{
+    width:96%;
+    background-color: #000000;
+  }
+
+  .centre-override{
+    text-align: center;
+  }
