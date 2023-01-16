@@ -83,8 +83,6 @@ function getContent(content){
             return ash_info
         case("lachie-icon"):
             return lachie_info
-        case("glenn-icon"):
-            return chris_info
         case("ida-icon"):
             return ida_info
     }
