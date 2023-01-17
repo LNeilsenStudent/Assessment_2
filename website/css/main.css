@@ -185,6 +185,27 @@ p {
     width:30%
   }
 
+  .stock-icon{
+    cursor: pointer;
+    border-radius: var(--my-border-radius);
+    border-style: none;
+    padding-left:1%;
+    padding-right: 3% ;
+    width:18%
+    }
+
+  .stock-icon:hover{
+    transform: scale(var(--hover-scale));
+  }
+
+  .stock-icon-container{
+    border-radius: var(--my-border-radius);
+    border-style: none;
+    margin-left: 0px;
+    margin-right: 0px;
+    width:45%
+  }
+
   .dark-bg-panel{
     background-color: var(--panel-bg);
   }
@@ -266,6 +287,10 @@ p {
     display:inline-flex;
   }
 
+  .vert-center{
+    align-items: center;
+  }
+
   .float-right{
     margin-left: auto;
     margin-right: 5%;
@@ -275,7 +300,7 @@ p {
     margin-right: auto;
     margin-left: -1%;
   }
-  
+
   .add-padding{
     padding: 7%;
   }
@@ -296,4 +321,3 @@ p {
   .white-txt{
     color: var(--my-white);
   }
-
