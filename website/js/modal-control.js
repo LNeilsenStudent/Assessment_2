@@ -12,6 +12,7 @@ const chris_info = ["Chris Box", "write some stuff about chris (stdent No. perso
 const ash_info = ["Ash Choudhry", "write some stuff about ash (stdent No. personal info, etc). write some stuff about ash (stdent No. personal info, etc). write some stuff about ash (stdent No. personal info, etc). write some stuff about ash (stdent No. personal info, etc). write some stuff about ash (stdent No. personal info, etc). write some stuff about ash (stdent No. personal info, etc). write some stuff about ash (stdent No. personal info, etc). write some stuff about ash (stdent No. personal info, etc). "]
 const lachie_info = ["Lachie Neilsen", "write some stuff about lachie (stdent No. personal info, etc). write some stuff about lachie (stdent No. personal info, etc). write some stuff about lachie (stdent No. personal info, etc). write some stuff about lachie (stdent No. personal info, etc). write some stuff about lachie (stdent No. personal info, etc). write some stuff about lachie (stdent No. personal info, etc). write some stuff about lachie (stdent No. personal info, etc). "]
 const ida_info = ["Ida Gange", "write some stuff about ida (stdent No. personal info, etc). write some stuff about ida (stdent No. personal info, etc). write some stuff about ida (stdent No. personal info, etc). write some stuff about ida (stdent No. personal info, etc). write some stuff about ida (stdent No. personal info, etc). write some stuff about ida (stdent No. personal info, etc). write some stuff about ida (stdent No. personal info, etc). write some stuff about ida (stdent No. personal info, etc). "]
+const nathan_info = ["Nathan", "write some things about nathan in this field so it shows up and write and awrite to fill space for now because the and "]
 // Myer-Briggs data goes here: -------------------------------------------------------------
 const alex_mb = ["ENFJ-A", "Extraversion: 71%<br>Intuitive: 59%<br>Thinking: 34%<br>Judging: 78%<br>Assertive: 51%"]
 const chris_mb = ["ISTJ-T", "Extraversion: 2%<br>Intuitive: 23%<br>Thinking: 52%<br>Judging: 68%<br>Assertive: 31%"]
@@ -30,7 +31,6 @@ openModalButton.forEach(img => {
     img.addEventListener('click', () =>{
         const modal=document.querySelector(img.dataset.modalTarget)
         const content=img.getAttribute('id')
-
         openModal(modal, getContent(content))
     })
 })
@@ -51,6 +51,8 @@ overlay.addEventListener('click', () =>{
 
 // actions
 function openModal(modal, content){
+    console.log(modal)
+
     if(modal==null){
         return
     }
@@ -88,6 +90,8 @@ function getContent(content){
             return lachie_info
         case("ida-icon"):
             return ida_info
+        case("nathan-icon"):
+            return nathan_info
         case("alex-mb"):
             return alex_mb
         case("chris-mb"):
