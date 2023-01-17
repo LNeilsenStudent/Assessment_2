@@ -17,8 +17,20 @@ const chris_mb = ["ISTJ-T", "Extraversion: 2%<br>Intuitive: 23%<br>Thinking: 52%
 const ash_mb = ["ESFJ-A", "Extraversion: 71%<br>Intuitive: 59%<br>Thinking: 34%<br>Judging: 78%<br>Assertive: 51%"]
 const lachie_mb = ["INTJ-A", "Extraversion: 43%<br>Intuitive: 66%<br>Thinking: 54%<br>Judging: 58%<br>Assertive: 51%"]
 const ida_mb = ["ENFJ-A", "Extraversion: 71%<br>Intuitive: 59%<br>Thinking: 34%<br>Judging: 78%<br>Assertive: 51%"]
-
-
+// Stock image references go here: -------------------------------------------------------------
+const learning_info = ["Photo by <a href=https://unsplash.com/@sickhews?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText target=blank>Wes Hicks</a>","on <a href=https://unsplash.com/photos/4-EeTnaC1S4?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText target=blank>Unsplash</a>"]
+const microcreds_info = ["Photo by <a href=http://RealToughCandy.com target=blank>RealToughCandy.com</a>","<a href=https://www.pexels.com/photo/man-people-woman-sign-11035385/ target=blank>https://www.pexels.com/photo/man-people-woman-sign-11035385/</a>"]
+const climbing_info = ["Photo by <a href=https://unsplash.com/es/@haky?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText target=blank>Shamin Haky</a>","on <a href=https://unsplash.com/photos/RIk-i9rXPao?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText target=blank>Unsplash</a>"]
+const cybersecurity_info = ["Photo by Pixabay","<a href=https://www.pexels.com/photo/security-logo-60504/ target=blank>https://www.pexels.com/photo/security-logo-60504/</a>"]
+const banking_info = ["Photo by Kampus Production","<a href=https://www.pexels.com/photo/man-in-black-sitting-behind-a-desk-using-cellphone-8353777/ target=blank>https://www.pexels.com/photo/man-in-black-sitting-behind-a-desk-using-cellphone-8353777/</a>"]
+const communication_info = ["Photo by fauxels","<a href=https://www.pexels.com/photo/man-wearing-brown-suit-jacket-3184339/ target=blank>https://www.pexels.com/photo/man-wearing-brown-suit-jacket-3184339/</a>"]
+const people_info = ["Photo by <a href=https://unsplash.com/@dylandgillis?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText target=blank>Dylan Gillis</a>","on <a href=https://unsplash.com/photos/KdeqA3aTnBY?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText target=blank>Unsplash</a>"]
+const networking_info = ["Photo by Stefan Lorentz","<a href=https://www.pexels.com/photo/men-wearing-black-shirt-holding-a-purple-book-668137/ target=blank>https://www.pexels.com/photo/men-wearing-black-shirt-holding-a-purple-book-668137/</a>"]
+const investment_info = ["Photo by <a href=https://unsplash.com/@towfiqu999999?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText target=blank>Towfiqu barbhuiya</a>","on <a href=https://unsplash.com/photos/nApaSgkzaxg?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText target=blank>Unsplash</a>"]
+const future_info = ["Photo by Christina Morillo","<a href=https://www.pexels.com/photo/man-standing-infront-of-white-board-1181345/ target=blank>https://www.pexels.com/photo/man-standing-infront-of-white-board-1181345/</a>"]
+const challenge_info = ["Photo by <a href=https://unsplash.com/@towfiqu999999?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText target=blank>Towfiqu barbhuiya</a>","on <a href=https://unsplash.com/photos/Jxi526YIQgA?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText target=blank>Unsplash</a>"]
+const essence_info = ["Photo by <a href=https://unsplash.com/@markusspiske?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText target=blank>Markus Spiske</a>","on <a href=https://unsplash.com/photos/iar-afB0QQw?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText target=blank>Unsplash</a>"]
+const world_info = ["Photo by <a href=https://unsplash.com/@nasa?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText target=blank>NASA</a>","on <a href=https://unsplash.com/photos/Q1p7bh3SHj8?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText target=blank>Unsplash</a>"]
 
 
 // Events:
@@ -97,5 +109,31 @@ function getContent(content){
             return lachie_mb
         case("ida-mb"):
             return ida_mb
+        case("learning-icon"):
+            return learning_info
+        case("microcreds-icon"):
+            return microcreds_info
+        case("climbing-icon"):
+            return climbing_info
+        case("cybersecurity-icon"):
+            return cybersecurity_info
+        case("banking-icon"):
+            return banking_info
+        case("communication-icon"):
+            return communication_info
+        case("people-icon"):
+            return people_info
+        case("networking-icon"):
+            return networking_info
+        case("investment-icon"):
+            return investment_info
+        case("future-icon"):
+            return future_info
+        case("challenge-icon"):
+            return challenge_info
+        case("essence-icon"):
+            return essence_info
+        case("world-icon"):
+            return world_info
            }
 }
