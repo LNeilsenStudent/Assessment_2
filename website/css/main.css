@@ -275,6 +275,14 @@ p {
     margin-right: auto;
     margin-left: -1%;
   }
+  
+  .add-padding{
+    padding: 7%;
+  }
+
+  .move-down{
+    transform: translateY(8%);
+  }
 
   .regular-horizontal-line{
     width:96%;
@@ -283,4 +291,8 @@ p {
 
   .centre-override{
     text-align: center;
+  }
+
+  .white-txt{
+    color: var(--my-white);
   }
