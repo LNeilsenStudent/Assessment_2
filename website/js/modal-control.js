@@ -31,8 +31,10 @@ const future_info = ["Photo by Christina Morillo","<a href=https://www.pexels.co
 const challenge_info = ["Photo by <a href=https://unsplash.com/@towfiqu999999?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText target=blank>Towfiqu barbhuiya</a>","on <a href=https://unsplash.com/photos/Jxi526YIQgA?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText target=blank>Unsplash</a>"]
 const essence_info = ["Photo by <a href=https://unsplash.com/@markusspiske?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText target=blank>Markus Spiske</a>","on <a href=https://unsplash.com/photos/iar-afB0QQw?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText target=blank>Unsplash</a>"]
 const world_info = ["Photo by <a href=https://unsplash.com/@nasa?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText target=blank>NASA</a>","on <a href=https://unsplash.com/photos/Q1p7bh3SHj8?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText target=blank>Unsplash</a>"]
-
-
+const helpdesk_info = ["Photo by <a href=https://unsplash.com/ko/@cdc?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText target=blank>CDC</a>","on <a href=https://unsplash.com/photos/_XLJy3h77cw?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText target=blank>Unsplash</a>"]
+const ideal_info = ["Photo by <a href=https://unsplash.com/@swimstaralex?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText target=blank>Alexander Sinn</a>","on <a href=https://unsplash.com/photos/KgLtFCgfC28?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText target=blank>Unsplash</a>"]
+const jobs_info = ["Photo by <a href=https://unsplash.com/@jopwell?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText target=blank>The Jopwell Collection</a>","on <a href=https://unsplash.com/photos/u5pAYGDWD54?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText target=blank>Unsplash</a>"]
+const advice_info = ["Photo by Anna Shvets","<a href=https://www.pexels.com/photo/cute-rabbit-with-eyeglasses-4588428/ target=blank>https://www.pexels.com/photo/cute-rabbit-with-eyeglasses-4588428/</a>"]
 // Events:
 openModalButton.forEach(img => {
     img.addEventListener('click', () =>{
@@ -135,5 +137,13 @@ function getContent(content){
             return essence_info
         case("world-icon"):
             return world_info
+        case("helpdesk-icon"):
+            return helpdesk_info
+        case("ideal-icon"):
+            return ideal_info
+        case("jobs-icon"):
+            return jobs_info
+        case("advice-icon"):
+            return advice_info
            }
 }
