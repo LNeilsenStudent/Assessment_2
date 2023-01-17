@@ -119,7 +119,7 @@ p {
   color: var(--my-black);
   list-style-type: none;
 }
-a:link, a:visited {
+.nav-element:link, .nav-element:visited {
   background-color: var(--dark-blue);
     color: var(--my-white);
     border-radius: calc(var(--my-border-radius));
@@ -131,12 +131,12 @@ a:link, a:visited {
     font-family: 'Secular One', sans-serif;
   }
 
-  a:hover {
+  .nav-element:hover {
     background-color: var(--highlight);
     transform: scale(var(--hover-scale));
   }
 
-  a:active{
+  .nav-element:active{
     background-color: var(--intermediate-background);
   }
 
