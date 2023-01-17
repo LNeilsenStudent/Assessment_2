@@ -21,9 +21,6 @@ const ida_mb = ["ENFJ-A", "Extraversion: 71%<br>Intuitive: 59%<br>Thinking: 34%<
 
 
 
-
-
-
 // Events:
 openModalButton.forEach(img => {
     img.addEventListener('click', () =>{
