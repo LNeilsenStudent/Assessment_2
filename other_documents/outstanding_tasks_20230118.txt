@@ -47,7 +47,7 @@ Industry data:
 IT Work:
 	- interview: done
 
-IT Technologies: alex <three more technologies>
+IT Technologies: alex <two more technologies - ash has done one, alex has done one>
 	*cloud:*
 		- what does it do?
 			description of each: alex <cloud: looks good>
