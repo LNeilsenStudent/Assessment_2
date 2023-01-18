@@ -37,6 +37,7 @@ const jobs_info = ["Photo by <a href=https://unsplash.com/@jopwell?utm_source=un
 const advice_info = ["Photo by Anna Shvets","<a href=https://www.pexels.com/photo/cute-rabbit-with-eyeglasses-4588428/ target=blank>https://www.pexels.com/photo/cute-rabbit-with-eyeglasses-4588428/</a>"]
 const kid_worker_info = ["Photo by <a href=https://unsplash.com/@little_klein target=blank>Vitolda Klein</a>","on <a href=https://unsplash.com/photos/lAqSzwr5eQc target=blank>Unsplash</a>"]
 const phone_use_info = ["Photo by <a href=https://unsplash.com/@mayofi target=blank>Joshua Mayo</a>","on <a href=https://unsplash.com/photos/9hPUf-H7m3s target=blank>Unsplash</a>"]
+const code_info = ["Photo by <a href=https://unsplash.com/@ilyapavlov target=blank>Ilya Pavlov</a>","on <a href=https://unsplash.com/collections/421028/programmer target=blank>Unsplash</a>"]
 
 // Events:
 openModalButton.forEach(img => {
@@ -152,5 +153,7 @@ function getContent(content){
            return kid_worker_info
         case("phone-use-icon"):
             return phone_use_info
+        case("code-icon"):
+            return code_info
     }
 }
