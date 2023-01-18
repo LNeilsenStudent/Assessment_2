@@ -39,6 +39,8 @@ const kid_worker_info = ["Photo by <a href=https://unsplash.com/@little_klein ta
 const phone_use_info = ["Photo by <a href=https://unsplash.com/@mayofi target=blank>Joshua Mayo</a>","on <a href=https://unsplash.com/photos/9hPUf-H7m3s target=blank>Unsplash</a>"]
 const code_info = ["Photo by <a href=https://unsplash.com/@ilyapavlov target=blank>Ilya Pavlov</a>","on <a href=https://unsplash.com/collections/421028/programmer target=blank>Unsplash</a>"]
 const skills_info = ["Photo by <a href=https://unsplash.com/@cookiethepom target=blank>Cookie the Pom</a>","on <a href=https://unsplash.com/photos/siNDDi9RpVY target=blank>Unsplash</a>"]
+// Other image references (made by us) go here: -------------------------------------------------
+const qqc_info = ["Quick Quotes Calculator (QQC)", "This is the icon for QQC calculator, created by the DualCab team."]
 
 // Events:
 openModalButton.forEach(img => {
@@ -93,7 +95,6 @@ function closeModal(modal){
 // data handling
 function getContent(content){
     switch(content){
-
         case("alex-icon"):
             return alex_info
         case("chris-icon"):
@@ -158,5 +159,7 @@ function getContent(content){
             return code_info
         case("skills-icon"):
             return skills_info
+        case("qqc-icon"):
+            return qqc_info
     }
 }
