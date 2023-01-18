@@ -35,6 +35,9 @@ const helpdesk_info = ["Photo by <a href=https://unsplash.com/ko/@cdc?utm_source
 const ideal_info = ["Photo by <a href=https://unsplash.com/@swimstaralex?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText target=blank>Alexander Sinn</a>","on <a href=https://unsplash.com/photos/KgLtFCgfC28?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText target=blank>Unsplash</a>"]
 const jobs_info = ["Photo by <a href=https://unsplash.com/@jopwell?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText target=blank>The Jopwell Collection</a>","on <a href=https://unsplash.com/photos/u5pAYGDWD54?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText target=blank>Unsplash</a>"]
 const advice_info = ["Photo by Anna Shvets","<a href=https://www.pexels.com/photo/cute-rabbit-with-eyeglasses-4588428/ target=blank>https://www.pexels.com/photo/cute-rabbit-with-eyeglasses-4588428/</a>"]
+const kid_worker_info = ["Photo by <a href=https://unsplash.com/@little_klein target=blank>Vitolda Klein</a>","on <a href=https://unsplash.com/photos/lAqSzwr5eQc target=blank>Unsplash</a>"]
+const phone_use_info = ["Photo by <a href=https://unsplash.com/@mayofi target=blank>Joshua Mayo</a>","on <a href=https://unsplash.com/photos/9hPUf-H7m3s target=blank>Unsplash</a>"]
+
 // Events:
 openModalButton.forEach(img => {
     img.addEventListener('click', () =>{
@@ -145,5 +148,9 @@ function getContent(content){
             return jobs_info
         case("advice-icon"):
             return advice_info
-           }
+        case("kid-worker-icon"):
+           return kid_worker_info
+        case("phone-use-icon"):
+            return phone_use_info
+    }
 }
