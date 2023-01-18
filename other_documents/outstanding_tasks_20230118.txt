@@ -27,11 +27,11 @@ Tools:
 	- Git Pages Live: done
 	- link repo and pages in website: lachie <all info/links to go on web> 
 	- Audit trail reflection (group): discuss, lachie <group discussion. lachie can do writeup>
-	- MS-Teams: chris <how is this coming along?>
+	- MS-Teams: done
 		agendas: done
 		recording links: done
 		actions: chris <should we expand on minutes, or do you think we have this base checked?>
-		present as pdf: chris
+		present as pdf: done
 
 Industry data:
 	- ideal jobs: 
