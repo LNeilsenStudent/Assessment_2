@@ -50,7 +50,7 @@ IT Work:
 IT Technologies: alex <two more technologies - ash has done one, alex has done one>
 	*cloud:*
 		- what does it do?
-			description of each: alex <cloud: looks good>
+			description of each: alex <cloud: done>
 			discuss state of the art for each: alex <mention what state-of-the-art constitutes>
 			potential future evoltion: alex<how might this tech evolve?>
 			how other techs may interact with it's potential: <cloud: done>
