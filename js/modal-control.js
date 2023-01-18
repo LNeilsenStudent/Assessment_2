@@ -16,7 +16,7 @@ const alex_mb = ["ENFJ-A", "Extraversion: 71%<br>Intuitive: 59%<br>Thinking: 34%
 const chris_mb = ["ISTJ-T", "Extraversion: 2%<br>Intuitive: 23%<br>Thinking: 52%<br>Judging: 68%<br>Assertive: 31%"]
 const ash_mb = ["ESFJ-A", "Extraversion: 71%<br>Intuitive: 59%<br>Thinking: 34%<br>Judging: 78%<br>Assertive: 51%"]
 const lachie_mb = ["INTJ-A", "Extraversion: 43%<br>Intuitive: 66%<br>Thinking: 54%<br>Judging: 58%<br>Assertive: 51%"]
-const ida_mb = ["ENFJ-A", "Extraversion: 71%<br>Intuitive: 59%<br>Thinking: 34%<br>Judging: 78%<br>Assertive: 51%"]
+const ida_mb = ["INFJ-T", "Extraversion: 9%<br>Intuitive: 52%<br>Thinking: 43%<br>Judging: 53%<br>Assertive: 25%"]
 // Stock image references go here: -------------------------------------------------------------
 const learning_info = ["Photo by <a href=https://unsplash.com/@sickhews?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText target=blank>Wes Hicks</a>","on <a href=https://unsplash.com/photos/4-EeTnaC1S4?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText target=blank>Unsplash</a>"]
 const microcreds_info = ["Photo by <a href=http://RealToughCandy.com target=blank>RealToughCandy.com</a>","<a href=https://www.pexels.com/photo/man-people-woman-sign-11035385/ target=blank>https://www.pexels.com/photo/man-people-woman-sign-11035385/</a>"]
