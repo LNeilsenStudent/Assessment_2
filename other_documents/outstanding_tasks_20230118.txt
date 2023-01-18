@@ -15,7 +15,7 @@ Specifications:
 		name: done
 		student #: done
 		background: done
-		hobbies: 
+		hobbies: done
 		IT interest and experience: ida <why did you go into it to begin with?>, alex <how did the security diploma spark your interest in IT?>
 	- team profile: discuss <as individual or group? this needs some attention>
 
