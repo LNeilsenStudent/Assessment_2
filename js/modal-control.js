@@ -9,7 +9,7 @@ const alex_info = ["Alex Milnes", "Student Number: s3987656<br><br>Email: <a hre
 const chris_info = ["Chris Box", "Student Number: s3992802<br><br>Email: <a href=mailto:s3992802@student.rmit.edu.au>s3992802@student.rmit.edu.au</a><br><br>LinkedIn: <a href=https://www.linkedin.com/in/chris-box/ target=blank>https://www.linkedin.com/in/<br>chris-box/</a>"]
 const ash_info = ["Ash Choudhry", "Student Number: s3991119<br><br>Email: <a href=mailto:s3991119@student.rmit.edu.au>s3991119@student.rmit.edu.au</a>"]
 const lachie_info = ["Lachie Neilsen", "Student Number: s3987677<br><br>Email: <a href=mailto:s3987677@student.rmit.edu.au>s3987677@student.rmit.edu.au</a><br><br>LinkedIn: <a href=https://www.linkedin.com/in/lachlan-nielsen-0459741b4/ target=blank>https://www.linkedin.com/in/<br>lachlan-nielsen-0459741b4/</a>"]
-const ida_info = ["Ida Gange", "Student Number: s3338810<br><br>Email: <a href=mailto:s3338810@student.rmit.edu.au>s3338810@student.rmit.edu.au</a><br><br>LinkedIn: <a href=https://www.linkedin.com/in/??? target=blank>https://www.linkedin.com/in/???</a>"]
+const ida_info = ["Ida Gange", "Student Number: s3338810<br><br>Email: <a href=mailto:s3338810@student.rmit.edu.au>s3338810@student.rmit.edu.au</a>"]
 const nathan_info = ["Nathan Stewart", "LinkedIn profile:<br><br><a href=https://www.linkedin.com/in/nathan-s-32946188/ target=blank>https://www.linkedin.com/in/nathan-s-32946188/<br><br></a>"]
 // Myer-Briggs data goes here: -------------------------------------------------------------
 const alex_mb = ["ENFJ-A", "Extraversion: 71%<br>Intuitive: 59%<br>Thinking: 34%<br>Judging: 78%<br>Assertive: 51%"]
