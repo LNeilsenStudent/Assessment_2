@@ -63,6 +63,7 @@ IT Technologies: alex <two more technologies - ash has done one, alex has done o
 		- how it may affect you:
 			how might it affect you?: done
 			how might it impact your family/friends?: done
+
 	*Cybersecurity:*
 		- what does it do?
 			description of each: done
@@ -73,7 +74,7 @@ IT Technologies: alex <two more technologies - ash has done one, alex has done o
 			potential impact: <cloud: done>
 			how that may change in future: 
 			who will be affected? how?: 
-			will it replace jobs or other tech?: 
+			will it replace jobs or other tech?: <needs: how it replaces other tech>
 		- how it may affect you:
 			how might it affect you?: 
 			how might it impact your family/friends?: 
