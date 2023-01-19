@@ -1,6 +1,7 @@
 *******************************************
 Legend:
 
++: Indicates the web page for this item has been made (does not mean all content writing is complete)
 <>: text inside brackets is a comment
 outstanding: not yet complete
 discuss: group discussion is needed
@@ -9,7 +10,7 @@ nameOfPerson: this person needs to address the point
 *******************************************
 
 
-Specifications: 
++ Specifications: 
 	- team name: done
 	- personal information: ash <write in first person><what did you mean by surname issues?><how did your IT interest begin?>
 		name: done
@@ -22,7 +23,7 @@ Specifications:
 Ideal Jobs:
 	- Compare and contrast: (alex?) outstanding <we need a paragraph mentioning: all ideal jobs, how similar/different are they?, what makes them different?>
 
-Tools: 
++ Tools: 
 	- Group repository setup : done
 	- Git Pages Live: done
 	- link repo and pages in website: lachie <all info/links to go on web> 
@@ -33,7 +34,7 @@ Tools:
 		actions: chris <should we expand on minutes, or do you think we have this base checked?>
 		present as pdf: done
 
-Industry data:
++ Industry data:
 	- ideal jobs: 
 		name each job: done
 		demand rankings for each job: done
@@ -44,7 +45,7 @@ Industry data:
 		three highest ranked general skills we are missing: discuss
 	- Individual - has your ideal job changed? ash, lachie, chris, ida, alex <do this asap>
 
-IT Work:
++ IT Work:
 	- interview: done
 
 IT Technologies: alex <two more technologies - ash has done one, alex has done one>
@@ -63,7 +64,7 @@ IT Technologies: alex <two more technologies - ash has done one, alex has done o
 			how might it affect you?: alex <how this may affect you in daily life>
 			how might it impact your family/friends?: alex
 
-Project:
++ Project:
 	- Overview: done
 	- Motivation: done
 	- Description: done
