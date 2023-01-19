@@ -47,6 +47,7 @@ const good_info = ["Photo by <a href=https://unsplash.com/@edulauton target=blan
 const bad_info = ["Photo by <a href=https://unsplash.com/@r_shayesrehpour target=blank>Reza shayestehpour</a>","on <a href=https://unsplash.com/photos/Nw_D8v79PM4>Unsplash</a>"]
 const wow_info = ["Photo by <a href=https://unsplash.com/@xavi_cabrera target=blank>Xavi Cabrera</a>","on <a href=https://unsplash.com/photos/_-uN7DbAE-o>Unsplash</a>"]
 const books_info = ["Photo by <a href=https://unsplash.com/@kimberlyfarmer target=blank>Kimberly Farmer</a>","on <a href=https://unsplash.com/photos/lUaaKCUANVI>Unsplash</a>"]
+const cloud_info = ["Photo by <a href=https://unsplash.com/@kimberlyfarmer target=blank>Kimberly Farmer</a>","on <a href=https://unsplash.com/photos/lUaaKCUANVI>Unsplash</a>"]
 
 // Other image references (made by us) go here: -------------------------------------------------
 const qqc_info = ["Quick Quotes Calculator (QQC)", "This is the icon for QQC calculator, created by the DualCab team."]
@@ -187,5 +188,7 @@ function getContent(content){
             return wow_info
         case("books-icon"):
             return books_info
+        case("cloud-icon"):
+            return cloud_info
     }
 }
