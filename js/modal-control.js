@@ -39,9 +39,11 @@ const kid_worker_info = ["Photo by <a href=https://unsplash.com/@little_klein ta
 const phone_use_info = ["Photo by <a href=https://unsplash.com/@mayofi target=blank>Joshua Mayo</a>","on <a href=https://unsplash.com/photos/9hPUf-H7m3s target=blank>Unsplash</a>"]
 const code_info = ["Photo by <a href=https://unsplash.com/@ilyapavlov target=blank>Ilya Pavlov</a>","on <a href=https://unsplash.com/collections/421028/programmer target=blank>Unsplash</a>"]
 const skills_info = ["Photo by <a href=https://unsplash.com/@cookiethepom target=blank>Cookie the Pom</a>","on <a href=https://unsplash.com/photos/siNDDi9RpVY target=blank>Unsplash</a>"]
+const dotnet_info = ["Photo by <a href=https://unsplash.com/@hdbernd target=blank>Bernd Dittrich</a>","on <a href=https://unsplash.com/photos/d_3EKbSg1tg target=blank>Unsplash</a>"]
+const quality_info = ["Photo by <a href=https://unsplash.com/@anniespratt target=blank>Annie Spratt</a>","on <a href=https://unsplash.com/photos/QckxruozjRg target=blank>Unsplash</a>"]
+const spacejob_info = ["Photo by <a href=https://unsplash.com/@kevinqa target=blank>Kevin Quezada</a>","on <a href=https://unsplash.com/photos/Z8Ybwv9_v8M>Unsplash</a>"]
 // Other image references (made by us) go here: -------------------------------------------------
 const qqc_info = ["Quick Quotes Calculator (QQC)", "This is the icon for QQC calculator, created by the DualCab team."]
-const dotnet_info = ["Photo by <a href=https://unsplash.com/@hdbernd target=blank>Bernd Dittrich</a>","on <a href=https://unsplash.com/photos/d_3EKbSg1tg target=blank>Unsplash</a>"]
 
 
 // Events:
@@ -165,5 +167,9 @@ function getContent(content){
             return qqc_info
         case("dotnet-icon"):
             return dotnet_info
+        case("quality-icon"):
+            return quality_info
+        case("spacejob-info"):
+            return spacejob_info
     }
 }
