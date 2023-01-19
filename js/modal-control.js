@@ -43,6 +43,8 @@ const dotnet_info = ["Photo by <a href=https://unsplash.com/@hdbernd target=blan
 const quality_info = ["Photo by <a href=https://unsplash.com/@anniespratt target=blank>Annie Spratt</a>","on <a href=https://unsplash.com/photos/QckxruozjRg target=blank>Unsplash</a>"]
 const spacejob_info = ["Photo by <a href=https://unsplash.com/@kevinqa target=blank>Kevin Quezada</a>","on <a href=https://unsplash.com/photos/Z8Ybwv9_v8M>Unsplash</a>"]
 const html_info = ["Photo by <a href=https://unsplash.com/@jacksonsophat target=blank>Jackson Sophat</a>","on <a href=https://unsplash.com/photos/_t-l5FFH8VA>Unsplash</a>"]
+const good_info = ["Photo by <a href=https://unsplash.com/@edulauton target=blank>Edu Lauton</a>","on <a href=https://unsplash.com/photos/TyQ-0lPp6e4>Unsplash</a>"]
+const bad_info = ["Photo by <a href=https://unsplash.com/@r_shayesrehpour target=blank>Reza shayestehpour</a>","on <a href=https://unsplash.com/photos/Nw_D8v79PM4>Unsplash</a>"]
 
 // Other image references (made by us) go here: -------------------------------------------------
 const qqc_info = ["Quick Quotes Calculator (QQC)", "This is the icon for QQC calculator, created by the DualCab team."]
@@ -171,9 +173,13 @@ function getContent(content){
             return dotnet_info
         case("quality-icon"):
             return quality_info
-        case("spacejob-info"):
+        case("spacejob-icon"):
             return spacejob_info
-        case("html-info"):
-        return html_info
+        case("html-icon"):
+            return html_info
+        case("good-icon"):
+            return good_info
+        case("bad-icon"):
+            return bad_info
     }
 }
