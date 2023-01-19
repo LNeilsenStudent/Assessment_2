@@ -48,7 +48,7 @@ Ideal Jobs:
 + IT Work:
 	- interview: done
 
-IT Technologies: alex <two more technologies - ash has done one, alex has done one>
+IT Technologies: discuss <technology 3 & 4 need to be reviewed>
 	*cloud:*
 		- what does it do?
 			description of each: alex <cloud: done>
@@ -74,7 +74,7 @@ IT Technologies: alex <two more technologies - ash has done one, alex has done o
 			potential impact: <cloud: done>
 			how that may change in future: 
 			who will be affected? how?: 
-			will it replace jobs or other tech?: <needs: how it replaces other tech>
+			will it replace jobs or other tech?: ash <needs: how it replaces other tech>
 		- how it may affect you:
 			how might it affect you?: 
 			how might it impact your family/friends?: 
