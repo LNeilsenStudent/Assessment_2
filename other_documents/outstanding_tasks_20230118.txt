@@ -20,7 +20,7 @@ Specifications:
 	- team profile: discuss <as individual or group? this needs some attention>
 
 Ideal Jobs:
-	- Compare and contrast: outstanding <we need a paragraph mentioning: all ideal jobs, how similar/different are they?, what makes them different?>
+	- Compare and contrast: (alex?) outstanding <we need a paragraph mentioning: all ideal jobs, how similar/different are they?, what makes them different?>
 
 Tools: 
 	- Group repository setup : done
