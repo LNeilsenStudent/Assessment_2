@@ -66,6 +66,12 @@ p {
   font-family: 'Secular One', sans-serif;
   font-size: 13px;
 }
+
+a {
+  color: var(--my-black);
+  font-family: 'Secular One', sans-serif;
+}
+
 .list {
   color: var(--my-black);
   font-family: 'Secular One', sans-serif;
@@ -172,6 +178,24 @@ p {
     padding-right: 3% ;
     width:12%
     }
+
+    .personal-icon-2{
+      cursor: pointer;
+      border-radius: var(--my-border-radius);
+      border-style: none;
+      padding-left:6%;
+      padding-right: auto ;
+      width:12%
+      }
+
+      .personal-icon-3{
+        cursor: pointer;
+        border-radius: var(--my-border-radius);
+        border-style: none;
+        padding-right:1%;
+        padding-left: auto ;
+        width:12%
+        }
 
   .personal-icon:hover{
     transform: scale(var(--hover-scale));
