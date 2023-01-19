@@ -45,6 +45,8 @@ const spacejob_info = ["Photo by <a href=https://unsplash.com/@kevinqa target=bl
 const html_info = ["Photo by <a href=https://unsplash.com/@jacksonsophat target=blank>Jackson Sophat</a>","on <a href=https://unsplash.com/photos/_t-l5FFH8VA>Unsplash</a>"]
 const good_info = ["Photo by <a href=https://unsplash.com/@edulauton target=blank>Edu Lauton</a>","on <a href=https://unsplash.com/photos/TyQ-0lPp6e4>Unsplash</a>"]
 const bad_info = ["Photo by <a href=https://unsplash.com/@r_shayesrehpour target=blank>Reza shayestehpour</a>","on <a href=https://unsplash.com/photos/Nw_D8v79PM4>Unsplash</a>"]
+const wow_info = ["Photo by <a href=https://unsplash.com/@xavi_cabrera target=blank>Xavi Cabrera</a>","on <a href=https://unsplash.com/photos/_-uN7DbAE-o>Unsplash</a>"]
+const books_info = ["Photo by <a href=https://unsplash.com/@kimberlyfarmer target=blank>Kimberly Farmer</a>","on <a href=https://unsplash.com/photos/lUaaKCUANVI>Unsplash</a>"]
 
 // Other image references (made by us) go here: -------------------------------------------------
 const qqc_info = ["Quick Quotes Calculator (QQC)", "This is the icon for QQC calculator, created by the DualCab team."]
@@ -181,5 +183,9 @@ function getContent(content){
             return good_info
         case("bad-icon"):
             return bad_info
+        case("wow-icon"):
+            return wow_info
+        case("books-icon"):
+            return books_info
     }
 }
