@@ -42,6 +42,8 @@ const skills_info = ["Photo by <a href=https://unsplash.com/@cookiethepom target
 const dotnet_info = ["Photo by <a href=https://unsplash.com/@hdbernd target=blank>Bernd Dittrich</a>","on <a href=https://unsplash.com/photos/d_3EKbSg1tg target=blank>Unsplash</a>"]
 const quality_info = ["Photo by <a href=https://unsplash.com/@anniespratt target=blank>Annie Spratt</a>","on <a href=https://unsplash.com/photos/QckxruozjRg target=blank>Unsplash</a>"]
 const spacejob_info = ["Photo by <a href=https://unsplash.com/@kevinqa target=blank>Kevin Quezada</a>","on <a href=https://unsplash.com/photos/Z8Ybwv9_v8M>Unsplash</a>"]
+const html_info = ["Photo by <a href=https://unsplash.com/@jacksonsophat target=blank>Jackson Sophat</a>","on <a href=https://unsplash.com/photos/_t-l5FFH8VA>Unsplash</a>"]
+
 // Other image references (made by us) go here: -------------------------------------------------
 const qqc_info = ["Quick Quotes Calculator (QQC)", "This is the icon for QQC calculator, created by the DualCab team."]
 
@@ -171,5 +173,7 @@ function getContent(content){
             return quality_info
         case("spacejob-info"):
             return spacejob_info
+        case("html-info"):
+        return html_info
     }
 }
