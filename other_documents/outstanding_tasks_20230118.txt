@@ -31,7 +31,7 @@ Ideal Jobs:
 	- MS-Teams: done
 		agendas: done
 		recording links: done
-		actions: chris <should we expand on minutes, or do you think we have this base checked?>
+		actions: done
 		present as pdf: done
 
 + Industry data:
