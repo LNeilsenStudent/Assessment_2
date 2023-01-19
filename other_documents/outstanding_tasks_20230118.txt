@@ -75,7 +75,7 @@ IT Technologies: alex <two more technologies - ash has done one, alex has done o
 SparkPlus:
 	**must complete on saturday**
 
-Group reflection:
++ Group reflection:
 		- what went well? chris <see above>
 		- what could be improved? chris <see above>
 		- what was surprising? chris <see above>
