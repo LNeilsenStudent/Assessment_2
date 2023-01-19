@@ -41,6 +41,8 @@ const code_info = ["Photo by <a href=https://unsplash.com/@ilyapavlov target=bla
 const skills_info = ["Photo by <a href=https://unsplash.com/@cookiethepom target=blank>Cookie the Pom</a>","on <a href=https://unsplash.com/photos/siNDDi9RpVY target=blank>Unsplash</a>"]
 // Other image references (made by us) go here: -------------------------------------------------
 const qqc_info = ["Quick Quotes Calculator (QQC)", "This is the icon for QQC calculator, created by the DualCab team."]
+const dotnet_info = ["Photo by <a href=https://unsplash.com/@hdbernd target=blank>Bernd Dittrich</a>","on <a href=https://unsplash.com/photos/d_3EKbSg1tg target=blank>Unsplash</a>"]
+
 
 // Events:
 openModalButton.forEach(img => {
@@ -161,5 +163,7 @@ function getContent(content){
             return skills_info
         case("qqc-icon"):
             return qqc_info
+        case("dotnet-icon"):
+            return dotnet_info
     }
 }
