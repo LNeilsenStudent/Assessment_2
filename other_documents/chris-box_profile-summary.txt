@@ -1,7 +1,0 @@
-PERSONAL INFORMATION SUBSECTION (ONE PARAGRAPH PER PERSON INCLUDING NAME, STUDENT NUMBER, BACKGROUND, HOBBIES, IT INTEREST, IT EXPERIENCE):
-My name is Christopher Box, my student number is s3992802. I'm 42 years of age and live in Newcastle, NSW. I work at Telstra, in a team managing outages related to landlines, and the customer faults affected by those outages. My hobbies include gaming, technology/gadgets, travel and astronomy/astrophotography. My interest in IT began at a young age, when I began gaming on a computer at Dad's work. This developed over the years into also building PCs, networks, and troubleshooting technical issues for friends and family.
-
-TEAM PROFILE SUBSECTION (TEST OUTCOMES FOR ALL 3 TESTS, MY UNDERSTANDING OF HOW THIS MAY BE HELPFUL TO THE GROUP):
-Myers-Briggs Test outcome 'ISTJ-T Logistician', which means practical, fact-minded and reliable. I work best with some structure and leadership, and am reliable in a role that requires me to complete defined tasks to a clear schedule.
-Learning Style Test outcome 'Visual Learner', which means that I remember what I see over what I hear and that I prefer to read/write rather than listen to information. In my group I would learn best using visuals such as a shared whiteboard - Trello in our case.
-Team Roles Test outcome 'Completer, Team Player, Expert', which means the top 3 roles in a group that suit me best are: at the end of a task, to polish and scrutinise the work for errors; diplomacy, team cohesion and helping others; being trusted to complete specific tasks working alone.
